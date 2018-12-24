@@ -30,9 +30,9 @@ In order to run this app several steps will need to be completed.  First we will
 4. Log into your Vagrant VM (`vagrant ssh`)
 5. Navigate to `cd/vagrant` as instructed in terminal
 6. Import the requests by running: sudo pip install requests
-7. Setup application database `python /projectCatalog/database_setup.py`
+7. Setup application database `python /catalog/database_setup.py`
 8. Insert data by running lotsofitems.py`
-9. Run application using `python /projectcatalog/project.py`
+9. Run application using `python /catalog/project.py`
 10. Access the application locally using http://localhost:8000
 
 *Optional step(s)
@@ -53,7 +53,7 @@ To use Google login there are additional steps:
 11. On the Dev Console Select Download JSON
 12. Rename JSON file to client_secrets.json
 13. Place JSON file in project catalog directory that you cloned from here
-14. Run application using `python /projectCatalog/project.py`
+14. Run application using `python /catalog/project.py`
 
 
 ## JSON Endpoints
