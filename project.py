@@ -71,7 +71,7 @@ def logout():
         return redirect(url_for('showCatalog'))
 
 
-# Google Sign-In & Sign Out Functions:
+# Google Sign-In & Sign Out Functions (Pulled from Udacity OAuth project):
 @app.route('/gconnect', methods=['POST'])
 def gconnect():
     # Validate state token
